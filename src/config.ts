@@ -7,6 +7,14 @@ export const config = {
       msg: 'message'
     }
   },
+  middleware: {
+    log: true,
+    skips: 'health,log',
+    request: 'request',
+    response: 'response',
+    status: 'status',
+    size: 'size'
+  },
   db: {
     host: '127.0.0.1',
     port: 3306,
@@ -22,6 +30,11 @@ export const env = {
     port: 8082,
     db: {
       database: 'masterdata_sit',
+    }
+  },
+  prod: {
+    middleware: {
+      log: false
     }
   }
 };
