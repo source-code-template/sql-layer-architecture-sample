@@ -6,6 +6,6 @@ export class UserManager extends Manager<User, string, UserFilter> implements Us
     super(search, repository);
   }
 }
-export function useUser(search: Search<User, UserFilter>, repository: UserRepository): UserService {
+export function useUserService(search: Search<User, UserFilter>, repository: UserRepository): UserService {
   return new UserManager(search, repository);
 }
