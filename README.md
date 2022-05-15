@@ -1,5 +1,13 @@
 # sql-layer-architecture-sample
 
+## Available Scripts
+### `npm start`
+Runs the app in the development mode.
+### `npm run build`
+Builds the app for production to the `dist` folder.
+### `npm run prod`
+Runs the app for production in the `dist` folder.
+
 ## Architecture
 ### Simple Layer Architecture
 ![Layer Architecture](https://camo.githubusercontent.com/d9b21eb50ef70dcaebf5a874559608f475e22c799bc66fcf99fb01f08576540f/68747470733a2f2f63646e2d696d616765732d312e6d656469756d2e636f6d2f6d61782f3830302f312a4a4459546c4b3030796730496c556a5a392d737037512e706e67)
